@@ -1,0 +1,50 @@
+/* Gallery.css */
+
+.gallery-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .gallery-title {
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .gallery-images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .gallery-image {
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .gallery-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .gallery-image:hover {
+    transform: scale(1.1);
+  }
+  
+  .selected {
+    transform: scale(1.1);
+    border: 2px solid #007bff; /* Highlight the selected image */
+  }
+  
+  .featured-image {
+    margin-top: 20px;
+  }
+  
+  .featured-image img {
+    max-width: 40%;
+    height: auto;
+    border: 2px solid #007bff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
