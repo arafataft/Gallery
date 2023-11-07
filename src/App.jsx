@@ -1,4 +1,5 @@
 import Gallery from "./components/Gallery/Gallery"
+import PDFViewer from "./components/PdfViewer/PDFViewer"
 
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       
       <Gallery></Gallery>
+      <PDFViewer/>
     </>
   )
 }
