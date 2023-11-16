@@ -7,7 +7,7 @@ function PDFViewer() {
       <iframe
         title="PDF Viewer"
         width="100%"
-        height="660px"
+        height="760px"
         src={pdfUrl}
         frameBorder="0"
       ></iframe>
